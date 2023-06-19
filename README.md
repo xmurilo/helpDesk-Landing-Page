@@ -38,6 +38,6 @@
 </li>
 </ul>
 
-Sigo entusiasmado em continuar aprimorando minhas habilidades e conhecimentos na área da programação. Se você tiver alguma sugestão ou ideia para futuros projetos, sinta-se à vontade para compartilhar !
+<p>Sigo entusiasmado em continuar aprimorando minhas habilidades e conhecimentos na área da programação. Se você tiver alguma sugestão ou ideia para futuros projetos, sinta-se à vontade para compartilhar !</p>
 
 
