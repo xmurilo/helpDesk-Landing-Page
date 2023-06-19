@@ -4,7 +4,7 @@
 <p>Neste projeto desenvolvi uma landing page para um Help Desk como parte de um desafio proposto pelo meu professor de Desenvolvimento Web. O objetivo era demonstrar os conhecimentos adquiridos ao longo do semestre. </p>
   <h2>O que aprendi? 🌱</h2> 
  <ul>
-  <p>  Com este projeto, pude expandir ainda mais meus conhecimentos em HTML, CSS e JavaScript. Alguns dos principais aprendizados foram:</p>
+  <p>  Com este projeto, pude expandir ainda mais meus conhecimentos em HTML, CSS e JavaScript. <br> Alguns dos principais aprendizados foram:</p>
   
 <li>Criação de um menu hamburguer usando apenas CSS, sem a necessidade de JavaScript.</li>
 <li>Manipulação do placeholder de um campo de entrada usando JavaScript.</li>
