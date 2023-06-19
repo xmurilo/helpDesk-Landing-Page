@@ -35,13 +35,9 @@ html {
   transition: 0.4s ease-in-out;
 }
 
-.header .logo.esconder-logo {
-  transform: translateY(-100px);
-  transition: 0.7s ease-in-out;
-}
-
 .header .nome-logo {
   font-size: 32px;
+  color: #fff;
   font-family: 'lobster', cursive;
 }
 .header .nav input {
