@@ -529,6 +529,7 @@ html {
 
 .footer .formulario input {
   height: 20px;
+  width: 200px;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
