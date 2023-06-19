@@ -1,0 +1,371 @@
+@media (max-width: 1440px) {
+  .section-hero {
+    height: 100vh;
+  }
+}
+@media (max-width: 1350px) {
+  /* ----Sessao-Principal----  */
+  .section-hero {
+    height: 110vh;
+    flex-direction: column;
+  }
+
+  .section-hero .img-hero {
+    width: 600px;
+    margin: 120px 0 0 0;
+  }
+
+  .section-hero .container-titulo-texto {
+    margin: 0;
+  }
+
+  .section-hero .titulo-hero {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .section-hero .texto-hero {
+    font-size: 14px;
+  }
+
+  /* ----Sessao-Recurso----  */
+
+  .section-recursos .conteudo-recursos {
+    grid-template-areas:
+      'controle conhecimento'
+      'incidentes integracao'
+      ' dashboard atendimento';
+  }
+
+  /* ----Sessao-Planos----  */
+
+  .section-preco-plano .container-planos {
+    grid-template-areas:
+      'basico  basico avancado'
+      'premium premium premium ';
+  }
+
+  .plano-basico,
+  .plano-avancado,
+  .plano-premium {
+    width: 362px;
+  }
+  /* ----Footer----  */
+
+  .conteudo-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .lista-footer-1,
+  .footer .lista-footer-2 {
+    width: 100%;
+    margin: 60px 0;
+  }
+
+  .footer li {
+    text-align: center;
+  }
+}
+@media (max-width: 980px) {
+  /* ----Sessao-Clientes----  */
+  .section-clientes .clientes h3 {
+    font-size: 18px;
+  }
+  .section-clientes .clientes h4 {
+    font-size: 14px;
+  }
+  .section-clientes .clientes.mostrar {
+    display: block;
+    transition: 0.3s ease-in-out;
+  }
+  .section-clientes .img-empresa {
+    width: 80px;
+    margin: 10px auto;
+  }
+
+  .section-clientes .img-seta-voltar,
+  .section-clientes .img-seta-avancar {
+    top: 35%;
+  }
+
+  .section-clientes .img-seta-voltar {
+    left: 5%;
+  }
+  .section-clientes .img-seta-avancar {
+    right: 5%;
+  }
+}
+
+@media (max-width: 925px) {
+  .header .nav {
+    position: relative;
+  }
+
+  .header .nav label {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    bottom: -25px;
+    right: 5px;
+  }
+
+  .header .nav label .menu {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .header .nav label .menu .burguer {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transition: 0.2s ease-in-out;
+  }
+  .header .nav label .menu .burguer::before,
+  .header .nav label .menu .burguer::after {
+    content: '';
+    background-color: #f1f1f1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+  }
+
+  .header .nav label .menu .burguer::before {
+    top: 10px;
+  }
+
+  .header .nav label .menu .burguer::after {
+    bottom: 10px;
+  }
+  .header .nav input:checked ~ label .burguer {
+    transform: rotate(45deg);
+  }
+
+  .header .nav input:checked ~ label .burguer::before {
+    transform: rotate(90deg);
+    top: 0;
+  }
+
+  .header .nav input:checked ~ label .burguer::after {
+    transform: rotate(90deg);
+    bottom: 0;
+  }
+
+  .header input:checked ~ .lista-menu {
+    display: flex;
+    background-color: #0160de;
+    width: 250px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -20px;
+    top: 35px;
+  }
+
+  .header .nav .lista-menu {
+    display: none;
+  }
+  .header .nav .lista-menu.mudarCorMenu {
+    background-color: #000;
+  }
+
+  .header .nav .lista-menu a {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 850px) {
+  /* ----Sessao-Principal----  */
+
+  .section-hero .img-hero {
+    width: 450px;
+    margin: 100px 0 0 0;
+  }
+
+  .section-hero .container-titulo-texto {
+    width: 70%;
+    margin: 0;
+  }
+
+  .section-hero .titulo-hero {
+    font-size: 18px;
+  }
+
+  /* ----Sessao-Recursos----  */
+
+  .section-recursos .conteudo-recursos {
+    grid-template-areas:
+      'controle conhecimento'
+      'incidentes integracao'
+      ' dashboard atendimento';
+  }
+
+  /* ----Sessao-Planos----  */
+
+  .section-preco-plano .container-planos {
+    grid-template-areas:
+      'basico '
+      'avancado'
+      'premium ';
+  }
+
+  .plano-basico,
+  .plano-avancado,
+  .plano-premium {
+    width: 68%;
+  }
+  /* ----Sessao-Clientes----Banner-Empresas----  */
+  .banner-empresas-parceiras {
+    grid-template-areas:
+      'microsoft wallmart'
+      'delta meta';
+  }
+}
+
+@media (max-width: 650px) {
+  /* ----Sessao-Recursos----  */
+  .section-recursos .conteudo-recursos {
+    grid-template-areas:
+      'controle'
+      'conhecimento'
+      'incidentes'
+      'integracao'
+      ' dashboard '
+      'atendimento';
+  }
+  /* ----Sessao-Recursos----  */
+  .lista-planos {
+    height: 400px;
+  }
+}
+
+@media (max-width: 550px) {
+  /* ----Configuracao-Geral----  */
+  .section-recursos h2,
+  .section-preco-plano h2 {
+    font-size: 17px;
+  }
+
+  /* ----Sessao-Principal----  */
+  .section-hero {
+    height: 120vh;
+  }
+  .section-hero .img-hero {
+    width: 350px;
+  }
+
+  .section-hero .titulo-hero {
+    font-size: 15px;
+  }
+
+  /* ----Sessao--Planos----  */
+  .plano-basico,
+  .plano-avancado,
+  .plano-premium {
+    width: 100%;
+    height: auto;
+  }
+  .section-preco-plano .lista-planos {
+    height: auto;
+  }
+  /* ----Sessao-Clientes----  */
+  .section-clientes h2 {
+    width: 220px;
+    font-size: 21px;
+  }
+
+  .section-clientes .clientes p {
+    width: 355px;
+  }
+
+  .section-clientes .img-seta-voltar,
+  .section-clientes .img-seta-avancar {
+    width: 35px;
+  }
+  /* ----Footer----  */
+  .footer .nome-logo-footer a {
+    font-size: 42px;
+  }
+
+  .footer .redes-sociais {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  /* ----Configuracao-Geral---- */
+  .section-recursos p,
+  .section-preco-plano p {
+    font-size: 12px;
+  }
+
+  /* ----Cabecalho----  */
+  .header .nome-logo {
+    font-size: 26px;
+  }
+  .header .nav input:checked ~ .lista-menu {
+    top: 31px;
+  }
+  .header .nav .lista-menu a {
+    font-size: 10px;
+  }
+  /* ----Sessao-Principal----  */
+  .section-hero .img-hero {
+    width: 310px;
+  }
+  .section-hero .texto-hero {
+    font-size: 13px;
+  }
+
+  /* ----Sessao-Planos----  */
+  .section-preco-plano .lista-planos li {
+    font-size: 10px;
+  }
+
+  .container-planos .lista-planos li .check {
+    width: 15px;
+  }
+  /* ----Sessao-Clientes---- */
+  .section-clientes .img-cliente {
+    width: 100px;
+  }
+
+  .section-clientes .clientes h3 {
+    font-size: 16px;
+  }
+  .section-clientes .clientes h4 {
+    font-size: 12px;
+  }
+
+  .section-clientes .clientes p {
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .img-seta-voltar,
+  .img-seta-avancar {
+    top: 40%;
+  }
+
+  .banner-empresas-parceiras img {
+    width: 120px;
+  }
+  /* ----Footer---- */
+  .footer .nome-logo-footer a {
+    font-size: 32px;
+  }
+
+  .footer li {
+    font-size: 14px;
+  }
+}

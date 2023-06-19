@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelpWave - 4U</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsivo.css">
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header class="header">
+      <div class="logo"><span class="nome-logo" onclick="location.reload()">HelpWave</span></div>
+      <nav class="nav">
+        <!-- Menu -->
+        <input type="checkbox" id="menu-burguer">
+        <label for="menu-burguer">
+          <menu class="menu">
+            <i class="burguer"></i>
+          </menu>
+        </label>
+        <ul class="lista-menu">
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="#preco-plano">Preços & Planos</a></li>
+          <li><a href="#cliente">Clientes</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a class="destaque-menu" href="#">Cadraste-se</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Principal -->
+    <main>
+      <!-- Sessão Principal -->
+      <section id="hero" class="section-hero">
+        <div class="img-hero">
+          <img
+            src="img/image-hero.jpg"
+            alt="imagem"
+          />
+        </div>
+        <div class="container-titulo-texto">
+          <h1 class="titulo-hero">
+            Bem-vindo ao nosso Help Desk! Resolvendo seus problemas com
+            <span class="destaque-titulo">eficiência</span> e
+            <span class="destaque-titulo">rapidez</span>
+          </h1>
+          <p class="texto-hero">
+            A ação do Help Desk é fundamental para oferecer suporte técnico e
+            solucionar problemas de forma eficiente. Nossa equipe especializada
+            está pronta para atender suas necessidades 24 horas por dia, 7 dias
+            por semana. Com anos de experiência no setor, garantimos um serviço
+            de qualidade e satisfação do cliente. Experimente Grátis  AGORA.
+          </p>
+          <button class="button"><a href="#">Experimente Grátis</a></button>
+        </div>
+      </section>
+
+      <!-- Sessão Recursos -->
+      <section id="recursos" class="section-recursos">
+        <h2 class="titulo-recursos">Recursos Poderosos para uma <br>Experiência de Suporte Excepcional</h2>
+        <div class="conteudo-recursos">
+            <div class="controle">
+              <img
+                src="img/icons/controle.svg"
+                alt="Icone de controle de SLA"
+              />
+              <h3>Controle de SLA</h3>
+              <p>
+                Nosso sistema avançado de controle de SLA garante que suas solicitações sejam tratadas de acordo com os prazos acordados, garantindo um atendimento eficiente e dentro dos prazos estabelecidos.
+              </p>
+            </div>
+
+            <div class="conhecimento">
+              <img
+                src="img/icons/conhecimento.svg"
+                alt="Icone da Base Conhecimento"
+              />
+              <h3>Base de Conhecimento</h3>
+              <p>
+                Encontre soluções para problemas comuns de forma autônoma em
+                nossa abrangente base de conhecimento.
+              </p>
+            </div>
+
+            <div class="incidentes">
+              <img
+                src="img/icons/incidentes.svg"
+                alt="icone de Controle de solicitações e incidentes"
+              />
+              <h3>Controle de solicitações e incidentes</h3>
+              <p>
+                Tenha o controle total sobre suas solicitações e incidentes com nossa ferramenta intuitiva, permitindo rastrear e gerenciar cada etapa do processo de atendimento para garantir uma resolução rápida e eficaz.
+              </p>
+            </div>
+
+            <div class="integracao">
+              <img
+                src="img/icons/integracao.svg"
+                alt="Icone de integração"
+              />
+              <h3>Integração com Active Directory, Open LDAP, Pop e Imap</h3>
+              <p>
+                Integre facilmente nosso Help Desk ao seu sistema de autenticação e protocolos de email existentes, garantindo uma integração perfeita e um fluxo de trabalho simplificado para seus usuários. 
+              </p>
+            </div>
+
+            <div class="dashboard">
+              <img
+                src="img/icons/dashboard.svg"
+                alt="Icone de Dashboard"
+              />
+              <h3>Dashboard</h3>
+              <p>
+                Tenha uma visão abrangente e em tempo real do desempenho do seu Help Desk com nosso dashboard personalizável, apresentando métricas e estatísticas relevantes para ajudar a monitorar o progresso e identificar áreas de melhoria.
+              </p>
+            </div>
+
+            <div class="atendimento">
+              <img
+                src="img/icons/atendimento.svg"
+                alt="Icone de Avaliação do Atendimento"
+              />
+              <h3>Avaliação do Atendimento</h3>
+              <p>
+                Com nossa funcionalidade de avaliação do atendimento, você pode fornecer sua opinião sobre a qualidade do suporte recebido, nos ajudando a aprimorar continuamente nossos serviços para atender melhor às suas necessidades.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="button"><a href="#">Veja Todos Recursos</a></button>
+      </section>
+
+      <!-- Sessão planos & Preços -->
+      <section id="preco-plano" class="section-preco-plano">
+        <h2>Escolha o Plano Ideal para suas <br> Necessidades de Suporte</h2>
+        <div class="container-planos">
+          <div class="plano-basico">
+            <img src="img/icons/free.svg" alt="  Plano Free">
+            <h3>Basíco</h3>
+            <h4>FREE</h4>
+            <ol class="lista-planos">
+              <li><img class="check" src="img/icons/check.svg" alt=""> Atendentes - 1</li>
+              <li><img class="check" src="img/icons/check.svg" alt="">Usuários - 5</li>
+              <li><img class="check" src="img/icons/check.svg" alt="">Departamentos - 1</li>
+              <li><img class="check" src="img/icons/check.svg" alt="">Chamados - 100/mês</li>
+              <li><img class="check" src="img/icons/check.svg" alt="">Exportação dos dados</li>
+              <li><img class="check" src="img/icons/check.svg" alt="">Controle de solicitações e incidentes</li>
+            </ol>
+            <button class="button"><a href="#">Começar com Free</a></button>
+          </div>
+          <div class="plano-avancado">
+            <img src="img/icons/avancado.svg" alt="Icone plano avançado">
+            <h3>Avançado</h3>
+            <h4>R$ 25/mês</h4>
+            <ol class="lista-planos">
+              <p>Todos os recursos do <strong>Free</strong>, além de:</p>
+              <li>
+                <img class="check" src="img/icons/check.svg">
+                Atendentes - 5
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">
+                Usuários - 100
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">
+                Departamentos - 30
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">
+                Chamados Ilimitados
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">
+                Alertas (Email, Pushover, Telegram, etc)
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">
+                Base de conhecimento
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">
+                Campos Personalizados
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">
+                Controle de horas trabalhadas
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">Controle de SLA		
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">
+                Dashboard
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">
+                Multi-Idioma
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">
+                Avaliação do Atendimento</li>
+              <li>
+                <img class="check" src="img/icons/check.svg">
+                Relatórios
+              </li>
+            </ol>
+            <button class="button"><a href="#">Assinar Avançado</a></button>
+          </div>
+          <div class="plano-premium">
+            <img src="img/icons/premium.svg" alt="Icone plano Premium">
+            <h3>Premium</h3>
+            <h4>R$ 39/mês</h4>
+            <ol class="lista-planos">
+              <p>Todos os recursos do <strong>Avançado</strong>, além de:</p>
+              <li>
+                <img class="check" src="img/icons/check.svg">Atendentes - 100
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">Usuários - 500
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">Departamentos - 200
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">Chamados Ilimitados
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">Abertura de solicitações por email
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">API
+              </li>
+              <li>
+                <img class="check" src="img/icons/check.svg">Integração com Active Directory, Open LDAP, Pop e Imap
+              </li>
+            </ol>
+            <button class="button"><a href="#">Assinar Premium</a></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="cliente" class="section-clientes">
+        <img class="img-seta-voltar opacidade-seta" src="img/arrow.png" alt="">
+        <h2 class="titulo-clientes">Empresas que Confiam em Nós</h2>
+        <div class="clientes mostrar">
+            <div class="img-cliente">
+              <img src="img/img-cliente/ana-cliente.png" alt="Imagem da Ana">
+            </div>
+            <div class="img-empresa">
+              <img src="img/img-empresas/apple-logo.png" alt="Empresa Apple">
+            </div>
+          <h3>Ana Silva</h3>
+          <h4>Gerente de Operações</h4>
+          <p>O HelpWave revolucionou nosso suporte ao cliente na Apple. Com recursos avançados e um atendimento impecável, conseguimos elevar nossa eficiência e proporcionar uma experiência excepcional aos nossos usuários.</p>
+        </div>
+          <div class="clientes">
+          <div class="img-cliente">
+            <img src="img/img-cliente/carlos-cliente.png" alt="Imagem do Carlos">
+          </div>
+          <div class="img-empresa">
+            <img src="img/img-empresas/addobe-logo.png" alt="Empresa Addobe">
+          </div>
+          <h3>Carlos Santos</h3>
+          <h4>Analista de TI</h4>
+          <p>Posso afirmar que o HelpWave é a solução definitiva para gerenciamento de suporte. Com sua base de conhecimento abrangente e controle de SLA impecável, otimizamos nossa produtividade e garantimos um atendimento ágil e eficaz.</p>
+        </div>
+        <div class="clientes">
+          <div class="img-cliente">
+            <img src="img/img-cliente/laura-cliente.png" alt="Imagem da Laura">
+          </div>
+           <div class="img-empresa">
+            <img src="img/img-empresas/amazon-logo.png" alt="Imagem da empresa">
+          </div>
+          <h3>Laura Mendes</h3>
+          <h4>Coordenadora de Atendimento</h4>
+          <p>Na Amazon, o HelpWave se tornou uma peça fundamental no nosso atendimento ao cliente. Sua integração perfeita com nossos sistemas e o controle avançado de solicitações nos permitiu oferecer um suporte excepcional, mantendo a satisfação de nossos clientes em níveis elevados.</p>
+        </div>  
+
+          <img class="img-seta-avancar" src="img/arrow.png" alt="Seta para Avançar">
+          <div class="banner-empresas-parceiras">
+            <div class="microsoft">
+              <img  src="img/img-empresas/microsoft.png" alt="">
+            </div>
+            <div class="wallmart">
+              <img  src="img/img-empresas/wallmart.png" alt="">
+            </div>
+            <div class="delta">
+              <img  src="img/img-empresas/delta-air.png" alt="">
+            </div>
+            <div class="ibm">
+              <img src="img/img-empresas/meta.png" alt="">
+            </div>
+          </div>
+      </section>
+    </main>
+    <!-- Rodapé -->
+    <footer id="contato" class="footer">
+      <div class="logo-footer">
+        <span class="nome-logo-footer"><a href="#hero">HelpWave</a><span>
+      </div>
+      <div class="conteudo-footer">
+          <ul class="lista-footer-1">
+            <li><a href="">Sobre nós</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Materiais gratuitos</a></li>
+            <li><a href="">Carreiras</a></li>
+            <li><a href="">Mapa do Site</a></li>
+            <li><a href="">Releases</a></li>
+          </ul>
+          <form class="formulario" action="#" method="post">
+            <h2>Entre em contato conosco  Ajuda e Suporte</h2>
+            <div class="input-nome">
+              <input type="text" placeholder="Nome">
+            </div>
+            <div class="input-email">
+              <input type="email" placeholder="Endereço de Email">
+            </div>
+            <div class="text-area">
+              <textarea name="mensagem-form" id="formulario-mensagem" placeholder="Deixe uma mensagem.."></textarea>
+            </div>
+            <button class="botão-formulario">Enviar</button>
+          </form>
+          <ul class="lista-footer-2">
+            <li>Endereço<li>
+            <li>Rua Santos Drumond, 543 - 1º andar</li>
+            <li>SP - Brasil - CEP: 00000-000</li>
+            <li>Atendimento</li>
+            <li>Segunda à Sexta das 09h às 18h</li>
+            <li>+99 9999-99999</li>
+          </ul>
+      </div>
+      <ul class="redes-sociais">
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100010255547613" target="_blank"><img src="img/icon-redes-sociais/icon-facebook-1600.png" alt="Facebook">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/yxmurilo/" target="_blank" ><img src="img/icon-redes-sociais/icons-instagram.png" alt="Instagram"></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/murilo-silva-a85b7526b/" target="_blank" ><img src="img/icon-redes-sociais/icons-linkedin.png" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
