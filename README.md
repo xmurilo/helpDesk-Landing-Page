@@ -20,8 +20,8 @@
   <img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
 </div>
 
-<h2>Veja uma demonstração do Projeto ☑️ </h2>
-<a href="https://xmurilo.github.io/helpDesk-Landing-Page/" target="_blank">Veja o Site</a>
+<h2>Veja o Projeto ☑️ </h2>
+<a href="https://xmurilo.github.io/helpDesk-Landing-Page/" target="_blank">Ver Site</a>
 
 <h2>O que posso melhorar? ✨</h2>
 
