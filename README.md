@@ -20,14 +20,14 @@
   <img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
 </div>
 
-##  Veja uma demonstração do Projeto ☑️ 
+<h2>Veja uma demonstração do Projeto ☑️ </h2>
 <a href="https://xmurilo.github.io/helpDesk-Landing-Page/" target="_blank">Veja o Site</a>
 
-## O que posso melhorar? ✨
+<h2>O que posso melhorar? ✨</h2>
 
  <p>Embora tenha alcançado bons resultados com este projeto, sempre há espaço para melhorias.</p>
 
-### Algumas áreas em que posso focar incluem:
+<h4>Algumas áreas em que posso focar incluem:<h4>
 
 <ul>
   <li>Usabilidade: Tornar a navegação mais intuitiva e melhorar a experiência do usuário.
