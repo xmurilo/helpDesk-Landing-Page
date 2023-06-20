@@ -7,7 +7,7 @@
   <p>  Com este projeto, pude expandir ainda mais meus conhecimentos em HTML, CSS e JavaScript. <br> Alguns dos principais aprendizados foram:</p>
   
 <li>Criação de um menu hamburguer usando apenas CSS, sem a necessidade de JavaScript.</li>
-<li>Manipulação do placeholder de um campo de entrada usando JavaScript.</li>
+<li>Manipulação do placeholder de um campo de entrada usando CSS</li>
 <li>Aplicação de JavaScript em um carrossel, adicionando dinamismo ao projeto.</li>
 <li>Melhoria das habilidades de design, explorando diferentes técnicas e recursos.</li>
 
