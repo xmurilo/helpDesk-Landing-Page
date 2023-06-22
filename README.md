@@ -36,6 +36,10 @@
   </li>
   <li>Design visual: Explorar mais opções de cores, fontes e layouts para criar uma aparência mais atrativa.
 </li>
+  <li>Unidades Relativas: Utilizar unidades relativas para tornar o design mais responsivo.
+</li>
+  <li>Mobile First: Aplicar o conceito de Mobile First para garantir uma experiência otimizada em dispositivos móveis.
+</li>
 </ul>
 
 <p>Sigo entusiasmado em continuar aprimorando minhas habilidades e conhecimentos na área da programação. Se você tiver alguma sugestão ou ideia para futuros projetos, sinta-se à vontade para compartilhar !</p>
