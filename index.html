@@ -312,13 +312,26 @@
           <form class="formulario" action="#" method="post">
             <h2>Entre em contato conosco  Ajuda e Suporte</h2>
             <div class="input-nome">
-              <input type="text" placeholder="Nome" required>
+              <input 
+              oninput="validateName()"
+              class="input-form" 
+              type="text"
+              placeholder="Nome">
             </div>
             <div class="input-email">
-              <input type="email" placeholder="Endereço de Email" required>
+              <input 
+              oninput="validateEmail()" 
+              class="input-form" 
+              type="email" 
+              placeholder="Endereço de Email">
             </div>
             <div class="text-area">
-              <textarea name="mensagem-form" id="formulario-mensagem" placeholder="Deixe uma mensagem.."></textarea>
+              <textarea
+              oninput="validateMensagem()" 
+              id="formulario-mensagem" 
+              class="input-form mensagem-form"
+              name="mensagem-form"  
+              placeholder="Deixe uma mensagem.."></textarea>
             </div>
             <button class="botão-formulario">Enviar</button>
           </form>
