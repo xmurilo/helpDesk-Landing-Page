@@ -516,14 +516,14 @@ html {
 .footer .formulario input {
   color: #ffffff;
 }
-.footer .formulario input,
-.footer .formulario textarea {
+.footer .formulario .input-form,
+.footer .formulario .mensagem-form {
   background-color: #0d0d0f;
   border: none;
   outline: none;
 }
 
-.footer .formulario input {
+.footer .formulario .input-form {
   height: 20px;
   width: 200px;
   margin-bottom: 20px;
@@ -532,13 +532,13 @@ html {
   transition: 0.7s ease-in-out;
 }
 
-.footer .formulario input:focus::placeholder,
-.footer .formulario textarea:focus::placeholder {
+.footer .formulario .input-form:focus::placeholder,
+.footer .formulario .mensagem-form:focus::placeholder {
   transform: translateY(-100px);
   transition: 0.7s ease-in-out;
 }
 
-.footer .formulario textarea {
+.footer .formulario .mensagem-form {
   color: #ffffffda;
   width: 200px;
   height: 150px;
