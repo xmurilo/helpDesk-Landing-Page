@@ -52,3 +52,52 @@ function mostrarOuEsconderSetas() {
     setaAvancar.classList.remove('opacidade-seta');
   }
 }
+
+// Validação de formulario
+const form = document.querySelector('.formulario');
+const inputForm = document.querySelectorAll('.input-form');
+const emailRegex =
+  /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+// Impedir que o formulario seja enviado sem nenhum campo preenchido
+form.addEventListener('submit', event => {
+  event.preventDefault();
+  for (let i = 0; i < inputForm.length; i++) {
+    if (inputForm[i].value == '') {
+      setErro(i);
+    }
+  }
+});
+
+// Função dizendo que aquele campo do formulario esta ERRADO
+function setErro(index) {
+  inputForm[index].style.border = '2px solid red';
+}
+// Função dizendo que aquele campo do formulario esta CERTO
+function setCheck(index) {
+  inputForm[index].style.border = '2px solid #3ccc87';
+}
+
+function validateName() {
+  if (inputForm[0].value.length > 2) {
+    setCheck(0);
+  } else {
+    setErro(0);
+  }
+}
+
+function validateEmail() {
+  if (emailRegex.test(inputForm[1].value)) {
+    setCheck(1);
+  } else {
+    setErro(1);
+  }
+}
+
+function validateMensagem() {
+  if (inputForm[2].value.length > 10) {
+    setCheck(2);
+  } else {
+    setErro(2);
+  }
+}
