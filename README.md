@@ -9,6 +9,7 @@
 <li>Criação de um menu hamburguer usando apenas CSS, sem a necessidade de JavaScript.</li>
 <li>Manipulação do placeholder de um campo de entrada usando CSS</li>
 <li>Aplicação de JavaScript em um carrossel, adicionando dinamismo ao projeto.</li>
+<li>Validação de formulário</li>
 <li>Melhoria das habilidades de design, explorando diferentes técnicas e recursos.</li>
 
  </ul>
