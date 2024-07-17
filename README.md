@@ -1,48 +1,47 @@
 # Landing Page - Help Desk ⚙️
-## Sobre o projeto 📒
- 
-<p>Neste projeto desenvolvi uma landing page para um Help Desk como parte de um desafio proposto pelo meu professor de Desenvolvimento Web. O objetivo era demonstrar os conhecimentos adquiridos ao longo do semestre. </p>
-  <h2>O que aprendi? 🌱</h2> 
+## About the project 📒
+
+<p>In this project, I developed a landing page for a Help Desk as part of a challenge proposed by my Web Development teacher. The goal was to demonstrate the knowledge acquired throughout the semester.</p>
+  <h2>What I learned? 🌱</h2> 
  <ul>
-  <p>  Com este projeto, pude expandir ainda mais meus conhecimentos em HTML, CSS e JavaScript. <br> Alguns dos principais aprendizados foram:</p>
+  <p>With this project, I was able to further expand my knowledge in HTML, CSS, and JavaScript. <br> Some of the main learnings were:</p>
   
-<li>Criação de um menu hamburguer usando apenas CSS, sem a necessidade de JavaScript.</li>
-<li>Manipulação do placeholder de um campo de entrada usando CSS</li>
-<li>Aplicação de JavaScript em um carrossel, adicionando dinamismo ao projeto.</li>
-<li>Validação de formulário</li>
-<li>Melhoria das habilidades de design, explorando diferentes técnicas e recursos.</li>
+<li>Creation of a hamburger menu using only CSS, without the need for JavaScript.</li>
+<li>Manipulation of the placeholder of an input field using CSS.</li>
+<li>Application of JavaScript in a carousel, adding dynamism to the project.</li>
+<li>Form validation.</li>
+<li>Improvement of design skills, exploring different techniques and resources.</li>
 
  </ul>
   
-## Tecnologias usadas
+## Technologies used
 <div>
   <img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />  
   <img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
   <img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
 </div>
 
-<h2>Veja o Projeto ☑️ </h2>
-<a href="https://xmurilo.github.io/helpDesk-Landing-Page/" target="_blank">Ver Site</a>
+<h2>See the Project ☑️ </h2>
+<a href="https://xmurilo.github.io/helpDesk-Landing-Page/" target="_blank">View Website</a>
 
-<h2>O que posso melhorar? ✨</h2>
+<h2>What can I improve? ✨</h2>
 
- <p>Embora tenha alcançado bons resultados com este projeto, sempre há espaço para melhorias.</p>
+ <p>Although I achieved good results with this project, there is always room for improvement.</p>
 
-<h4>Algumas áreas em que posso focar incluem:<h4>
+<h4>Some areas I can focus on include:<h4>
 
 <ul>
-  <li>Usabilidade: Tornar a navegação mais intuitiva e melhorar a experiência do usuário.
+  <li>Usability: Make navigation more intuitive and improve the user experience.
   </li>
-  <li>Dinamismo: Aprimorar ainda mais a interatividade e a dinâmica do site.
+  <li>Dynamism: Further enhance interactivity and site dynamics.
   </li>
-  <li>Design visual: Explorar mais opções de cores, fontes e layouts para criar uma aparência mais atrativa.
+  <li>Visual design: Explore more color options, fonts, and layouts to create a more appealing appearance.
 </li>
-  <li>Unidades Relativas: Utilizar unidades relativas para tornar o design mais responsivo.
+  <li>Relative Units: Use relative units to make the design more responsive.
 </li>
-  <li>Mobile First: Aplicar o conceito de Mobile First para garantir uma experiência otimizada em dispositivos móveis.
+  <li>Mobile First: Apply the concept of Mobile First to ensure an optimized experience on mobile devices.
 </li>
 </ul>
 
-<p>Sigo entusiasmado em continuar aprimorando minhas habilidades e conhecimentos na área da programação. Se você tiver alguma sugestão ou ideia para futuros projetos, sinta-se à vontade para compartilhar !</p>
-
+<p>I am excited to continue improving my skills and knowledge in the programming field. If you have any suggestions or ideas for future projects, feel free to share!</p>
 
